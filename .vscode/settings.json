@@ -1,0 +1,18 @@
+{
+    "files.exclude": {
+        "**/*.o": true,
+        "**/*.map": { "when": "$(basename).cue" },
+        "**/*.iso": true,
+        "**/*.bin": true,
+        "**/*.cue": true,
+        "**/*.elf": true
+    },
+    "files.watcherExclude": {
+        "**/*.o": true,
+        "**/*.map": { "when": "$(basename).cue" },
+        "**/*.iso": true,
+        "**/*.bin": true,
+        "**/*.cue": true,
+        "**/*.elf": true
+    }
+}
